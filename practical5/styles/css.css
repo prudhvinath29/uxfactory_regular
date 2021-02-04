@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .nav {
+    list-style-type: none;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline;
+    margin: 5px;
+    padding: 15px 10px;
+    font-size: 20px;
+  }
+  
+  .nav li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #nav-logo img {
+    height: 60px;
+    width: 250px;
+    padding: 5px;
+  }
+  
+  .fa-user {
+    margin-right: 20px;
+    color: #3E9CD6;
+  }
+  
+  .my {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .nav-right {
+    display: inline;
+    position: absolute;
+    right: 25px;
+    padding-top: 20px;
+  }
+  
+  #ad-btn {
+    background-color: #EA7435;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: white;
+  }
+  .form-group {
+    background-color: #a4c926;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  .form-group * {
+    padding: 10px;
+    border-radius: 4px;
+    display: inline;
+  }
+  .form-group input:first-child {
+    width: 30%;
+  }
+  .input-group {
+    width: 50%;
+  }
+  .input-group * {
+    width: 25%;
+  }
+  .input-group input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .input-group select {
+    padding: 11px;
+    background: white;
+    margin: -5px;
+    color: dimgray;
+    border: 1px solid dimgray;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .search-btn {
+    padding: 4px 15px;
+    background-color: #3E9CD6;
+    color: white;
+    font-weight: bold;
+    border: none;
+  }
+  .content {
+    text-align: center;
+  }
+  .icons {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background-color: violet;
+    color: white;
+  }
+  .center {
+    width: 100%;
+  }
+  .center .icons {
+    margin: 15px;
+  }
+  .bg-grey {
+    background-color: #eee;
+    padding: 50px;
+    border-bottom: 1px solid black;
+  }
+  .banner {
+    text-align: center;
+    margin: auto;
+    background-color: #EEE;
+    width: 50%;
+    padding: 50px;
+    margin-top: 25px;
+    border: 10px dashed #CCC;
+  }
+  .ad-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .ad-container h3 {
+    padding-left: 10%;
+    text-align: left;
+  }
+  .card {
+    border: 5px solid #CCC;
+    padding: 5px;
+    width: 15%;
+    height: 240px;
+    margin: auto;
+    display: inline-block;
+  }
+  .card img {
+    width: 100%;
+    height: 170px;
+  }
+  .card a{
+    display: block;
+    color: #3E9CD6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .card p {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .card-details {
+    padding-left: 15px;
+    text-align: left;
+  }
